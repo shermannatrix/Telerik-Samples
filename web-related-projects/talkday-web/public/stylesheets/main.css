@@ -1,0 +1,217 @@
+h1 {
+	font-weight: 200;
+}
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.main-container {
+    width: 92%;
+    min-width: 1200px;
+    margin: 0 auto;
+	text-align: center;
+}
+
+.login-form {
+	width: 350px;
+	padding: 15px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.register-form {
+	width: 550px;
+	padding: 15px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.label-short {
+	min-width: 150px;
+	margin-right: 4px;
+	font-weight: bold;
+}
+
+.label-150px {
+	min-width: 150px;
+}
+
+.label-200px {
+	min-width: 200px;
+}
+
+.label-full {
+	width: 100%;
+}
+
+.form-btn {
+	padding: 4px 15px;
+}
+
+.buttons-panel {
+	width: 100%;
+	margin: 10px 0;
+	text-align: left;
+	border: 1px solid #aaa;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+
+	background: -webkit-linear-gradient(270deg, #fcfcfc, #f1f1f1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(270deg, #fcfcfc, #f1f1f1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(270deg, #fcfcfc, #f1f1f1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(270deg, #fcfcfc, #f1f1f1); /* Standard syntax */
+}
+
+.tab-buttons-panel {
+	width: 99%;
+	margin: 10px 0;
+	text-align: left;
+	border: 1px solid #aaa;
+	padding: 10px;
+	border-radius: 4px;
+	background-color: #f1f1f1;
+
+	background: -webkit-linear-gradient(270deg, #fcfcfc, #f1f1f1); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(270deg, #fcfcfc, #f1f1f1); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(270deg, #fcfcfc, #f1f1f1); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(270deg, #fcfcfc, #f1f1f1); /* Standard syntax */
+}
+
+.error-box {
+	width: 100%;
+	margin: 15px auto;
+	padding: 15px;
+	background-color: #fc6363;
+	color: #fff;
+	border-radius: 5px;
+}
+
+.info-box {
+	width: 100%;
+	margin: 15px auto;
+	padding: 15px;
+	background-color: #80ff6f;
+	color: #666;
+	border-radius: 5px;
+}
+
+.grid-listing-view {
+	width: 100%;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.tab-content {
+	padding: 10px;
+}
+
+.properties-form {
+	width: 700px;
+	padding: 15px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.venue-name-text {
+	font-weight: bold;
+	letter-spacing: 0.5px;
+}
+
+.control-buttons {
+	padding: 8px 16px;
+}
+
+.edit-field-dropdown {
+	width: 50%;
+}
+
+.edit-field-dropdown-long {
+	width: 100%;
+}
+
+.edit-event-btn {
+	background-color: transparent;
+	border: 1px solid #f1f1f1;
+	color: white;
+	margin: 5px;
+	border-radius: 4px;
+}
+
+.grid-edit-view {
+	width: 100%;
+	margin: 10px auto;
+}
+
+#eventSpeakers .k-item > span {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px 10px 10px 5px;
+}
+
+#eventSpeakers .k-item > span:first-child {
+	-moz-box-shadow: inset 0 0 30px rgba(0,0,0,.3);
+	-webkit-box-shadow: inset 0 0 30px rgba(0,0,0,.3);
+	box-shadow: inset 0 0 30px rgba(0,0,0,.3);
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#eventSpeakers h3 {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0 0 1px 0;
+	padding: 0;
+}
+
+#eventSpeakers p {
+	margin: 0;
+	padding: 0;
+	font-size: .8em;
+}
+
+.speaker-photo-pane {
+	width: 160px;
+	height: 100%;
+	display: inline-block;
+	border-right: 1px solid #a1a1a1;
+	float: left;
+}
+
+.speaker-details-pane {
+	width: 515px;
+	padding-left: 5px;
+	height: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.speaker-details-wrapper {
+	width: 100%;
+	padding: 5px;
+}
+
+.rotate90 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.k-thumb .k-image {
+	width: 80px;
+	height: auto;
+}

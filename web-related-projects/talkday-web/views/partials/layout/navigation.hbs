@@ -1,0 +1,24 @@
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" style="text-transform: uppercase; color: white; margin-right: 100px;">talkday</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav" style="text-transform: uppercase;">
+                {{#if fullname}}
+					<li><a href="/events/dashboard">Manage Events</a></li>
+					<li><a href="/users/list">Manage Users</a></li>
+                    <li><a href="/users/login">Logout</a></li>
+                {{else}}
+                    <li><a href="/users/login">Login</a></li>
+                {{/if}}
+            </ul>
+        </div>
+    </div>
+</nav>
